@@ -5,7 +5,7 @@ html {
 
 body {
   font-family: 'Titillium';
-  src: url('fonts/Titillium-Regular.otf') format("opentype");
+  src: url('test') format("opentype");
   padding-top: 54px;
   color: #000000;
 }
