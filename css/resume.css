@@ -5,7 +5,7 @@ html {
 
 body {
   font-family: 'Titillium';
-  src: url('jadeid99.github.io/css/fonts/Titillium-Regular.otf') format("opentype");
+  src: url('../jadeid99.github.io/css/fonts/Titillium-Regular.otf') format("opentype");
   padding-top: 54px;
   color: #000000;
 }
@@ -21,7 +21,7 @@ h1,
 h2,
 h3h6 {
   font-family: 'Titillium';
-  src: url('jadeid99.github.io/css/fonts/Titillium-Regular.otf') format("opentype");
+  src: url('../jadeid99.github.io/css/fonts/Titillium-Regular.otf') format("opentype");
   font-weight: 600;
   color: #173F5F;
 },
@@ -29,7 +29,7 @@ h4,
 h5,
 h6 {
   font-family: 'Titillium';
-  src: url('jadeid99.github.io/css/fonts/Titillium-Regular.otf') format("opentype");
+  src: url('../jadeid99.github.io/css/fonts/Titillium-Regular.otf') format("opentype");
   font-weight: 600;
   color: #173F5F;
 }
@@ -50,7 +50,7 @@ h2 {
   text-transform: uppercase;
   font-weight: 500;
   font-family: 'Titillium';
-  src: url('jadeid99.github.io/css/fonts/Titillium-Regular.otf') format("opentype");
+  src: url('../jadeid99.github.io/css/fonts/Titillium-Regular.otf') format("opentype");
   font-size: 1.35rem;
 }
 
