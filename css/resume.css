@@ -4,9 +4,10 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', serif;
+  font-family: 'Titillium';
+  src: url("Profile/themes/hugo-resume/static/Font/Titillium-Regular.otf") format("opentype");
   padding-top: 54px;
-  color: #868e96;
+  color: #000000;
 }
 
 @media (min-width: 992px) {
@@ -18,19 +19,23 @@ body {
 
 h1,
 h2,
-h3,
+h3h6 {
+  font-family: 'Titillium';
+  src: url("Profile/themes/hugo-resume/static/Font/Titillium-Bold.otf") format("opentype");
+  font-weight: 600;
+  color: #173F5F;
+},
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', serif;
-  font-weight: 700;
-  color: #343a40;
+  font-family: 'Titillium';
+  src: url("Profile/themes/hugo-resume/static/Font/Titillium-Thin.otf") format("opentype");
+  font-weight: 600;
+  color: #173F5F;
 }
 
 
-h1, h2{
-  text-transform: uppercase;
-}
+
 
 h1 {
   font-size: 6rem;
@@ -44,16 +49,17 @@ h2 {
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
-  font-family: 'Saira Extra Condensed', serif;
+  font-family: 'Titillium';
+  src: url("Profile/themes/hugo-resume/static/Font/Titillium-Thin.otf") format("opentype");
   font-size: 1.35rem;
 }
 
 .list-social-icons a {
-  color: #495057;
+  color: #173F5F;
 }
 
 .list-social-icons a:hover {
-  color: #BD5D38;
+  color: #98c1d9;
 }
 
 .list-social-icons a .fa-lg {
@@ -65,7 +71,7 @@ h2 {
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #98c1d9;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -92,7 +98,7 @@ h2 {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border: 0.5rem solid rgba(23, 63, 95, 0.2);
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -114,7 +120,7 @@ h2 {
 }
 
 section.resume-section {
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid #ffffff;
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
 }
@@ -140,17 +146,17 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #173F5F !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #000000 !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #173F5F;
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #98c1d9;
 }
