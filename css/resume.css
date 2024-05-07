@@ -4,8 +4,7 @@ html {
 }
 
 body {
-  font-family: 'Titillium';
-  src: url("fonts/Titillium-Regular.otf") format("opentype");
+  font-family: "Titillium Web", sans-serif;
   padding-top: 54px;
   color: #000000;
 }
@@ -20,16 +19,14 @@ body {
 h1,
 h2,
 h3h6 {
-  font-family: 'Titillium';
-  src: url("fonts/Titillium-Bold.otf") format("opentype");
+  font-family: "Titillium Web", sans-serif;
   font-weight: 600;
   color: #173F5F;
 },
 h4,
 h5,
 h6 {
-  font-family: 'Titillium';
-  src: url("fonts/Titillium-Thin.otf") format("opentype");
+  font-family: "Titillium Web", sans-serif;
   font-weight: 600;
   color: #173F5F;
 }
@@ -49,8 +46,7 @@ h2 {
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
-  font-family: 'Titillium';
-  src: url("fonts/Titillium-Thin.otf") format("opentype");
+  font-family: "Titillium Web", sans-serif;
   font-size: 1.35rem;
 }
 
