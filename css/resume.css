@@ -1,24 +1,30 @@
 html {
+  font-family: "Titillium Web", sans-serif;
   --scroll-behavior: smooth;
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Titillium Web", sans-serif !important;
   padding-top: 54px;
   color: #000000;
 }
 
 @media (min-width: 992px) {
   body {
+    font-family: "Titillium Web", sans-serif;
     padding-top: 0;
     padding-left: 17rem;
   }
 }
 
 h1,
-h2,
-h3h6 {
+h2{
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  color: #173F5F;
+},
+h3 {
   font-family: "Titillium Web", sans-serif;
   font-weight: 600;
   color: #173F5F;
@@ -71,12 +77,14 @@ h2 {
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
+  font-family: "Titillium Web", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
 }
 
 @media (min-width: 992px) {
   #sideNav {
+    font-family: "Titillium Web", sans-serif;
     text-align: center;
     position: fixed;
     top: 0;
@@ -87,16 +95,19 @@ h2 {
     height: 100vh;
   }
   #sideNav .navbar-brand {
+    font-family: "Titillium Web", sans-serif;
     display: flex;
     margin: auto auto 0;
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
+    font-family: "Titillium Web", sans-serif;
     max-width: 10rem;
     max-height: 10rem;
     border: 0.5rem solid rgba(23, 63, 95, 0.2);
   }
   #sideNav .navbar-collapse {
+    font-family: "Titillium Web", sans-serif;
     display: flex;
     align-items: flex-start;
     flex-grow: 0;
@@ -104,6 +115,7 @@ h2 {
     margin-bottom: auto;
   }
   #sideNav .navbar-collapse .navbar-nav {
+    font-family: "Titillium Web", sans-serif;
     flex-direction: column;
     width: 100%;
   }
@@ -117,8 +129,8 @@ h2 {
 
 section.resume-section {
   border-bottom: 1px solid #ffffff;
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important;
+  padding-top: 5rem ;
+  padding-bottom: 5rem ;
 }
 
 section.resume-section .resume-item .resume-date {
@@ -136,8 +148,8 @@ section.resume-section .resume-item .resume-date {
 
 @media (min-width: 992px) {
   section.resume-section {
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important;
+    padding-top: 3rem ;
+    padding-bottom: 3rem ;
   }
 }
 

@@ -2,17 +2,17 @@
 @media (max-width: 768px) {
   /* makes googlebot happy with tap target spacing */
   a {
-  min-height: 48px !important;
-  min-width: 48px !important;
-  min-inline-size: 48px !important;
+  min-height: 0px ;
+  min-width: 0px ;
+  min-inline-size: 0px;
   margin-right: 4px;
   margin-left: 4px;
-  line-height: 48px;
+  line-height: 0px;
 }
 }
 
 img {
-  max-width: 100% !important;
+  max-width: 100%;
 }
 
 .p-0{
@@ -40,7 +40,7 @@ h3.mb-0{
 
 div.skills-heading{
     margin-top:1em;
-    margin-bottom:0 !important;
+    margin-bottom:0;
 }
 
 
@@ -48,7 +48,7 @@ div.skills-heading{
 /* From https://codepen.io/wbeeftink/pen/dIaDH */
 
 .tags {
-    font: 12px/1.5 'PT Sans', serif;
+    font: 12px/1.5 "Titillium Web", sans-serif;
   list-style: none;
   margin: 0;
   overflow: hidden;
@@ -147,5 +147,5 @@ div.skills-heading{
     }
 
     img.qrcode {
-      max-width: 300px !important;
+      max-width: 300px;
     }

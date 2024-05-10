@@ -1,0 +1,119 @@
+body {
+  background-image: url("http://s336220192.mialojamiento.es/archivo/codepen/american-psycho/bg.jpg");
+  background-repeat: repeat;
+}
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+.business-card {
+  display: block;
+  width: 350px;
+  height: 190px;
+  margin: 250px auto;
+  background-color: whitesmoke;
+  padding: 15px;
+  -webkit-box-shadow: 6px 11px 24px -1px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 6px 11px 24px -1px rgba(0, 0, 0, 0.6);
+  box-shadow: 6px 11px 24px -1px rgba(0, 0, 0, 0.6);
+  transition: 1.5s ease;
+  -moz-transition: 1.5s ease;
+  -webkit-transition: 1.5s ease;
+  -o-transition: 1.5s ease;
+  background-image: url("http://s336220192.mialojamiento.es/archivo/codepen/american-psycho/bone-white.png");
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  transform: rotate(10deg);
+  text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5), 0px -1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.business-card:hover {
+  transform: scale(2);
+  -moz-transform: scale(2);
+  -webkit-transform: scale(2);
+  -o-transform: scale(2);
+  -ms-transform: scale(2);
+}
+
+.number {
+  font-family: "EB Garamond", serif;
+  display: block;
+  float: left;
+  font-size: 15px;
+}
+
+.company {
+  font-family: "EB Garamond", serif;
+  display: block;
+  float: right;
+  text-align: center;
+}
+
+.company-name {
+  font-family: "EB Garamond", serif;
+  display: block;
+  font-size: 15px;
+}
+
+.company-desc:after {
+  font-family: "EB Garamond", serif;
+  content: "MACHINES AND AUTOMATION";
+  display: block;
+  font-size: 12px;
+}
+
+.company-desc:hover:after {
+  font-family: "EB Garamond", serif;
+  content: "|MURDERS AND EXECUTIONS|";
+  display: block;
+  font-size: 12px;
+}
+
+.employee {
+  font-family: "EB Garamond", serif;
+  display: block;
+  position: relative;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.employee-name {
+  font-family: "EB Garamond", serif;
+  display: block;
+}
+
+.employee-position {
+  font-family: "EB Garamond", serif;
+  display: block;
+}
+
+.address {
+  font-family: "EB Garamond", serif;
+  text-align: center;
+  display: block;
+  font-size: 11px;
+  margin-top: 60px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.scene {
+h1 {
+  font-family: "EB Garamond", serif;
+  font-weight: 100;
+  font-size: 25px;
+  text-align: center;
+  justify-content: center;
+  }
+  font-family: "EB Garamond", serif;
+  color: hsla(0, 0%, 13.3%, 1);;
+  margin: 100px auto;
+  width: 400px;
+  p {
+    line-height: 1.65em;
+    text-align: center;
+    a {
+      color: inherit;
+    }
+  }
+}
