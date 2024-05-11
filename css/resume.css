@@ -49,6 +49,11 @@ h2 {
   font-size: 3.5rem;
 }
 
+h6 {
+  text-align: justify;
+  line-height: 1.6;
+}
+
 .subheading {
   text-transform: uppercase;
   font-weight: 500;

@@ -72,7 +72,6 @@ body {
 .employee {
   font-family: "EB Garamond", serif;
   display: block;
-  position: relative;
   text-align: center;
   margin-top: 80px;
 }
@@ -80,6 +79,8 @@ body {
 .employee-name {
   font-family: "EB Garamond", serif;
   display: block;
+  position: relative;
+  text-align: center;
 }
 
 .employee-position {
@@ -95,6 +96,22 @@ body {
   margin-top: 60px;
   margin-left: -8px;
   margin-right: -8px;
+}
+
+.watermark {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  color: fade-out(black, 0.9);
+  text-decoration: none;
+  text-shadow: 1px 1px 0px fade-out(white, 0.6);
+  transition: color 750ms ease;
+  &:hover {
+    color: inherit;
+  }
+  span {
+    margin-right: 2pt;
+  }
 }
 
 .scene {
