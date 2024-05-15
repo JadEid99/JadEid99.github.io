@@ -62,12 +62,12 @@ body {
   font-size: 12px;
 }
 
-.company-desc:hover:after {
-  font-family: "EB Garamond", serif;
-  content: "|MURDERS AND EXECUTIONS|";
-  display: block;
-  font-size: 12px;
-}
+/*.company-desc:hover:after {*/
+/*  font-family: "EB Garamond", serif;*/
+/*  content: "|MURDERS AND EXECUTIONS|";*/
+/*  display: block;*/
+/*  font-size: 12px;*/
+/*}*/
 
 .employee {
   font-family: "EB Garamond", serif;
