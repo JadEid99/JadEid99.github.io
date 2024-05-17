@@ -1,5 +1,5 @@
 body {
-  background-image: url("http://s336220192.mialojamiento.es/archivo/codepen/american-psycho/bg.jpg");
+  background-color: #ffffff;
   background-repeat: repeat;
 }
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
@@ -9,7 +9,6 @@ body {
   width: 350px;
   height: 190px;
   margin: 250px auto;
-  background-color: whitesmoke;
   padding: 15px;
   -webkit-box-shadow: 6px 11px 24px -1px rgba(0, 0, 0, 0.6);
   -moz-box-shadow: 6px 11px 24px -1px rgba(0, 0, 0, 0.6);
@@ -18,7 +17,7 @@ body {
   -moz-transition: 1.5s ease;
   -webkit-transition: 1.5s ease;
   -o-transition: 1.5s ease;
-  background-image: url("http://s336220192.mialojamiento.es/archivo/codepen/american-psycho/bone-white.png");
+  background-color: #F9F6EE;
   -ms-transform: rotate(10deg);
   -webkit-transform: rotate(10deg);
   -moz-transform: rotate(10deg);
